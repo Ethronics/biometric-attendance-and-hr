@@ -1,0 +1,45 @@
+.attendance-container {
+    border: 1px solid #ccc;
+    display: grid;
+    padding: 20px;
+}
+.headar-attendance{
+    display: flex;
+    flex-direction: column;
+}
+.atten{
+    display: flex;
+    justify-content: center;
+}
+.attendance-icon{
+    display: flex;
+    justify-content: space-between;
+}
+.right-atten{
+    display: flex;
+    border-radius: 10px;
+    height: 50px;
+    padding: 20px 5px;
+    margin: 20px;
+}
+.icon{
+    height: 25px;
+    width: 24px;
+    margin-top: 15px;
+}
+.left-atten{
+    padding: 20px 5px;
+    justify-content: space-between  ;
+}
+.buttons{
+margin: 20px;
+border-radius: 10px;
+height: 50px;
+background-color: aqua;
+}
+.inputs{
+    height: 50px;
+    border-radius: 10px;
+    background-color: aqua;
+
+}
