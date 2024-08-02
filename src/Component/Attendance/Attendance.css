@@ -1,0 +1,117 @@
+.attendance-container {
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.headar-attendance {
+    display: flex;
+    flex-direction: column;
+}
+
+.atten {
+    display: flex;
+    justify-content: center;
+}
+
+.attendance-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-atten {
+    display: flex;
+    border-radius: 10px;
+    height: 50px;
+    padding: 20px 5px;
+    margin: 20px;
+}
+
+.icon {
+    height: 25px;
+    width: 24px;
+    margin-top: 15px;
+}
+
+.left-atten {
+    padding: 20px 5px;
+    justify-content: space-between;
+}
+
+.buttons {
+    margin: 20px;
+    border-radius: 10px;
+    height: 50px;
+    background-color: aqua;
+}
+
+.inputs {
+    height: 50px;
+    border-radius: 10px;
+    background-color: aqua;
+
+}
+
+.left-atten {
+    display: flex;
+    align-items: center;
+}
+
+.inputs {
+    margin: 0 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.buttons {
+    margin-left: 10px;
+    padding: 8px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.buttons:hover {
+    background-color: #0056b3;
+}
+
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.employee-table th,
+.employee-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.employee-table th {
+    background-color: #f4f4f4;
+}
+@media (max-width:768) {
+    .attendance-container {
+        flex-direction: colum;
+        justify-content: start;
+    }
+
+}
+@media (max-width:480) {
+    .attendance-container {
+        flex-direction: colum;
+        justify-content: start;
+    }
+    .attendance-icon{
+        display: row;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+}
