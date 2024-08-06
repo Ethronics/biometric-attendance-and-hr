@@ -1,0 +1,84 @@
+.app-container {
+    display: flex;
+  }
+  
+  .sidebar-placeholder {
+    width: 250px; /* Space for the sidebar */
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .sidebar-placeholder ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-placeholder li {
+    padding: 10px 0;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-actions {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  
+
+  .add-new-program {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .program-section {
+    margin-top: 20px;
+  }
+  
+  .program-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .program-section table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  .program-section th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .program-section th {
+    background-color: #f2f2f2;
+  }
+  
+  .view-more-container {
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+  }
+  
+  .view-more-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 20px; /* Add margin to push the button to the right */
+  }
