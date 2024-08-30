@@ -1,0 +1,165 @@
+.payroll {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.payroll-header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.search-containerss {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 40px;
+    width: 300px;
+}
+
+.search-icon {
+    margin-left: 10px;
+    border: none;
+    font-size: medium;
+}
+
+.employee-search {
+    padding: 5px;
+    font-size: 16px;
+    flex: 1;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-family:'Lexend',sans-serif ;
+}
+
+.payroll-table {
+    margin-top: 20px;
+}
+
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family:'Lexend',sans-serif ;
+  
+}
+
+.employee-tables thead ,td{
+    text-align: left;
+    font-family:'Lexend',sans-serif ;
+  
+}
+
+.employee-tables th{
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+    font-family:'Lexend',sans-serif ;
+  
+}
+
+.employee-name-cell {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    border: none;
+    font-family:'Lexend',sans-serif ;
+  
+}
+
+.employee-name {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    font-family:'Lexend',sans-serif ;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-button {
+    padding: 5px 10px;
+    margin: 0 2px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+.status-paid{
+    width: 90px;
+    height: 30px;
+    background-color: rgba(159, 61, 174,0.2);
+    color: rgba(159, 61, 174,1);
+    border: 1px solid #9f3dae;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-family:'Lexend',sans-serif ;
+  
+}
+.status-unpaid{
+    width: 90px;
+    height: 30px;
+    padding: 5px 10px 5px 10px;
+    background-color: rgba(220, 20, 60, 0.2);
+    color: #dc143c;
+    border: 1px solid #dc143c;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-family:'Lexend',sans-serif ;
+  
+}
+.pagination-button.active {
+    background-color: #9f3dae;
+    color: #fff;
+    border: 1px solid #9f3dae;
+}
+.download-excel{
+    display: flex;
+    align-items: center;
+    font-family:'Lexend',sans-serif ;
+    background-color:#9f3dae;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 12px;
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 5px;
+    
+}
+.download-buttons{
+    margin-left: 60%;
+}
+@media (max-width: 768px) {
+    .payroll-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .employee-search {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .employee-search {
+        font-size: 12px;
+    }
+
+    .employee-table th, .employee-table td {
+        font-size: 14px;
+    }
+}

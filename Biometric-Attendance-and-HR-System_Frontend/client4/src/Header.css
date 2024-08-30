@@ -1,0 +1,78 @@
+/* Header */
+.header {
+  grid-area: header;
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border: #A2A1A833;
+  box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
+  position: relative;
+  z-index: 1000;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.search-header {
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-right: 20px;
+  border: none;
+  outline: none;
+}
+.search-container{
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 40px;
+}
+.icon-sear{
+  margin-top: 13px;
+  margin-left: 10px;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.pro-board{
+  width: 130px;
+  border: 1px solid #A2A1A833;
+
+}
+
+.user-info img {
+  width: 30px;
+  height: 30px;
+  border-radius: 30%;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.user-info span {
+  font-size: 14px;
+  margin-right: 5px;
+}
+.header-option{
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+}
+.header-span{
+  color: rgba(162, 161, 168, 1);
+}
+h3,h6{
+  margin: 0;
+}
+.head-but{
+  border: none;
+}

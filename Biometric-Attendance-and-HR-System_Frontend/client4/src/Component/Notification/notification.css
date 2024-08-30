@@ -1,0 +1,199 @@
+.notification {
+    padding: 30px 20px;
+}
+
+.notify {
+    display: flex;
+    border-top: 1px solid #ccc;
+    border-bottom:1px solid #ccc ;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
+.notify-h {
+    flex-direction: column;
+    margin-bottom: 10px;
+    justify-content: space-between;
+
+}
+/* Notification popup styles */
+.notification-popup {
+    /* Your existing styles */
+}
+
+.notification-content {
+    /* Your existing styles */
+}
+
+.notification {
+    /* Your existing styles */
+}
+
+.notify {
+    /* Your existing styles */
+    cursor: pointer;
+}
+
+.notify.clicked {
+    background-color: #f0f0f0; /* Change to your desired background color */
+}
+
+/* Other styles */
+.close-button {
+    /* Your existing styles */
+}
+
+.close-buttons {
+    /* Your existing styles */
+}
+
+.time-not {
+    margin-left: 768px;
+}
+
+.notify-row {
+    display: flex;
+    justify-content: space-between;
+    z-index: 1600;
+}
+
+.notify-h h2{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    font-family:'Lexend',sans-serif ;
+}
+
+.notify-h h5 {
+    color: #5c5959;
+    margin: 0;
+    padding: 0;
+    font-family:'Lexend',sans-serif ;
+}
+
+.notification-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.459);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.notification-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(24, 22, 22, 0.773);
+
+}
+
+.notification-content {
+    background: rgb(248, 246, 246);
+    padding: 20px;
+    border-radius: 8px;
+    width: 60%;
+    z-index: 9999;
+
+}
+
+.close-button {
+    position: absolute;
+    background: #9f3dae;
+    color: #fff;
+    border: none;
+    margin-left: 49.3%;
+    margin-top: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+.close-buttons {
+    background: #9f3dae;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.go-fl {
+    display: flex;
+    gap: 10px;
+}
+
+.notification-popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notification-popup-content .profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.notification-popup-content h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    margin-left: 200px;
+}
+
+.notification-popup-content p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.notification-popup-content .go-button {
+    background: #600373;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.notification-popup-content .close-button {
+    background-color: #6c757d;
+}
+
+.notification-popup-content .go-button:hover,
+.notification-popup-content .close-button:hover {
+    opacity: 0.8;
+}
+.notification-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.notification-icon svg {
+    color: #333;
+}
+
+.notification-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: #e74c3c;
+    color: #fff;
+    border-radius: 50%;
+    padding: 3px 6px;
+    font-size: 12px;
+    font-weight: bold;
+}

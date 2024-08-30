@@ -1,0 +1,134 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Login Specific Styles */
+.Login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.Login-container form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+
+}
+.input-box input[type="email"]:focus{
+  border: none;
+}
+.Login-container img.login-image {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 150px;
+}
+
+.Login-container .login-image {
+  width: 450px;
+  height: 50px;
+}
+
+.Login-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Login-container p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Login-container .input-box {
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  border: 1px solid #9f3dae;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.Login-container .input-box input  {
+  width:100%;
+  border: none;
+ 
+  font-size: 16px;
+}
+
+.Login-container .input-box .icon {
+  
+  width: 48px;
+  height: 25px;
+  
+  color: #9f3dae;
+}
+
+.Login-container .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Login-container .remember-forgot label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.Login-container .remember-forgot label input[type="checkbox"] {
+  margin-right: 5px;
+  appearance: none;
+  border: 2px solid #9f3dae;
+  border-radius: 3px;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.Login-container .remember-forgot label input[type="checkbox"]:checked {
+  background-color: #9f3dae;
+  border-color: #9f3dae;
+}
+
+.Login-container .remember-forgot label input[type="checkbox"]:checked::before {
+  content: "\2713";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 12px;
+}
+
+.Login-container .remember-forgot a {
+  color: #9f3dae;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.Login-container button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #9f3dae;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Login-container button:hover {
+  background-color: #9f3dae;
+}

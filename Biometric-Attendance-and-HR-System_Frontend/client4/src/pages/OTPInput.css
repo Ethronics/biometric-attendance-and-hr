@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+
+.OTPInput.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .back-link a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  .back-link svg {
+    margin-right: 5px;
+  }
+  
+  .OTP2.Container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 400px;
+    text-align: center;
+  }
+  
+  .OTP3.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .OTP4.Container {
+    margin-bottom: 20px;
+  }
+  
+  .OTP5.Container p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .OTPInner.Container p {
+    color: #6669;
+    margin-bottom: 20px;
+  }
+  
+  .OTPInner2.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .OTPInner3.Container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .OTPInner4.Container {
+    margin-right: 10px;
+  }
+  
+  .OTPInput.Containner,
+  .OTPInput3.Containner,
+  .OTPInput4.Containner,
+  .InputOTP {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 5px;
+  }
+  
+  .VerfiyOTP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .VerifyOTP-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 110px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .VerifyOTP-button:active {
+    box-shadow: 0 0 10px #45a049; /* Green glow effect on button click */
+  }
+
+  .VerifyOTP-button:active {
+    animation: glow 0.5s;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px #4CAF50;
+    }
+    50% {
+        box-shadow: 0 0 20px #4CAF50;
+    }
+    100% {
+        box-shadow: 0 0 5px #4CAF50;
+    }
+}
+
+.OTPInputContainner:focus,
+.OTPInput3Containner:focus,
+.OTPInput4Containner:focus,
+.InputOTP:focus {
+    border-color: #4CAF50;
+    background-color: #e0f7e0;
+}

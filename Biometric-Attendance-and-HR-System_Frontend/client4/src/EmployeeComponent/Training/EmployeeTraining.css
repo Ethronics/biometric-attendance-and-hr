@@ -1,0 +1,99 @@
+.employee-training-container {
+    padding: 20px;
+   
+  }
+  
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .history-button {
+    position: absolute; /* Take the button out of the normal document flow */
+    right: 0; /* Align it to the right edge of the container */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #9F3DAE;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  @media (max-width: 768px) {
+    .employee-training-container {
+      padding: 15px; /* Reduced padding for smaller screens */
+    }
+  
+    .history-button {
+      font-size: 14px;
+      padding: 8px 16px;
+      top: 10px; /* Adjust position if needed */
+    }
+  
+    .training-table {
+      min-width: auto; /* Adjust table width */
+    }
+  
+    .training-table th, .training-table td {
+      padding: 6px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .employee-training-container {
+      padding: 10px; /* Further reduced padding */
+    }
+  
+    .history-button {
+      font-size: 12px;
+      padding: 6px 12px;
+      top: 5px; /* Adjust position if needed */
+    }
+  
+    .training-table th, .training-table td {
+      padding: 4px;
+      font-size: 12px;
+    }
+  
+    .register-button {
+      padding: 4px 8px;
+      font-size: 12px;
+    }
+  }
+  
+  
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .training-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .training-table th, .training-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .training-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .register-button {
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #9F3DAE;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #9e62a7;
+  }
+  

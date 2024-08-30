@@ -1,0 +1,27 @@
+{
+    "dashboard": "Dashboard",
+    "all_employees": "All Employees",
+    "attendance": "Attendance",
+    "all_departments": "All Departments",
+    "payroll": "Payroll",
+    "training_and_dev": "Training and Dev't",
+    "performance": "Performance",
+    "leaves": "Leaves",
+    
+    "settings": "Settings",
+    "appearance_title": "Appearance",
+    "appearance_description": "Customize how your theme looks on your device",
+    "light": "Light",
+    "dark": "Dark",
+    "language_title": "Language",
+    "language_description": "Select your preferred language",
+    "2fa_title": "Two-Factor Authentication",
+    "2fa_description": "Enable extra security with 2FA",
+    "notifications_title": "Notifications",
+    "notifications_description": "Manage your notification preferences",
+    "Total_employees":"Total Employees",
+    "total_training":"Total Training",
+    "total_attendance":"Total Attendance",
+    "total_leave":"Total leaves"
+  }
+  

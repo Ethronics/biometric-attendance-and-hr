@@ -1,0 +1,238 @@
+/* Container for Department Information */
+.Dept-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    cursor: pointer;
+    font-family:'Lexend',sans-serif ;
+}
+
+/* Employee Table Styles */
+.Dept-info h3 ,h4{
+    font-family:'Lexend',sans-serif ;
+}
+
+/* Department Cards Container */
+.top-dept-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two items per row */
+    gap: 20px; /* Adjust the spacing between the cards */
+    justify-content: space-evenly;
+    font-family:'Lexend',sans-serif ;
+}
+
+.sub-department-card {
+    list-style: none;
+    margin: 20px 10px 20px 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #9f3dae;
+    height: 1;
+    font-family:'Lexend',sans-serif ;
+}
+/* Individual Department Card */
+.dept-card {
+    width: 90%; /* Adjusted for grid layout */
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column; 
+    font-family:'Lexend',sans-serif ;
+}
+
+/* Headers and Content Alignment */
+.second-header{
+    display: flex;
+    justify-content: space-between;
+    font-family:'Lexend',sans-serif ;
+}
+.top-cardFirst{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    font-family:'Lexend',sans-serif ;
+}
+
+/* Employee Names Style */
+.employee-names{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/* Department Grid Style */
+.dept-gre{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+/* Button Style */
+.dept-but{
+    border: none;
+    background-color: white;
+}
+
+/* Department Header */
+.left-depC{
+    margin: 10px;
+}
+.left-depC h6{
+    margin-right: 20px;
+}
+
+/* Card Span Style */
+.span-card{
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+
+/* View Span Style */
+.span-view{
+    margin-right: 20px;
+    display: inline-block;
+    margin-top: 20px;
+    color: rgba(163, 209, 57, 1);
+}
+
+/* Horizontal Rule Style */
+.hr{
+    width: 550px;
+}
+
+/* Department Header Container */
+.d-h{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Department Header Input Style */
+.dept-header{
+    border: 1px solid #ccc;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 130px;
+}
+.dept-input{
+    margin-top: 15px;
+    border: none;
+    outline: none;
+}
+.dept-sel{
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    width: 300px;
+}
+.icon-dept{
+    height: 15px;
+    width: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+/* Profile Picture Style */
+.profile-pi{
+    width: 30px;
+    height: 30px;
+    
+}
+.profile-dep{
+    width: 30px;
+    height: 30px;
+}
+
+/* Department Button Style */
+.Dept-button{
+    display: flex;
+    gap: 10px;
+    margin-left: 60%;
+}
+
+/* Department Button Style */
+.department-button {
+    display: flex;
+    align-items: center;
+    font-family:'Lexend',sans-serif ;
+    background-color:#9f3dae;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 12px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 0;
+}
+.sub-department{
+    display: flex;
+    align-items: center;
+    font-family:'Lexend',sans-serif ;
+    background-color:#9f3dae;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 12px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 5px;
+}
+
+/* Dropdown Styles */
+.dropdown{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+.dropdown-add-employee{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    margin-left: 50%; 
+}
+.profile-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 0;
+}
+/* Confirm Button Styles */
+.con-button{
+    display: flex;
+    gap: 10px;
+    margin-left:150px;
+}
+.add-employee-button{
+    background-color: #9f3dae;
+    font-family:'Lexend',sans-serif ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 83%;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media(max-width: 1024px) {
+    .top-dept-card {
+        grid-template-columns: 1fr; /* Make it one column on smaller screens */
+    }
+    .dept-card {
+        width: 100%;
+    }
+}

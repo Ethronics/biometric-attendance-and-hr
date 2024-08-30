@@ -1,0 +1,72 @@
+.report-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+.repo-sel {
+  width: 50%;
+  height: 60px;
+  border-color: #9f3dae;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.top-repo {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.repo-form {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  border-color: #9f3dae;
+  outline: none;
+}
+
+.report-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-color: #9f3dae;
+  border-radius: 5px;
+}
+
+.repo-form-search {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  border: 1px solid #9f3dae;
+  justify-content: space-between;
+}
+
+.report-search {
+  border: none;
+  outline: none;
+}
+
+.repo-form-but-se {
+  background: white;
+  border: none;
+}
+
+.sear-icon {
+  width: 30px;
+  height: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.repo-form-but {
+  width: 80px;
+  height: 50px;
+  background-color: #9f3dae;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}

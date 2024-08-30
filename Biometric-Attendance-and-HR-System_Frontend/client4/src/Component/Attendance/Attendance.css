@@ -1,0 +1,126 @@
+.container2{
+    padding: 20px;
+}
+
+.pagination-atten{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.search-atten{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+.atten-search{
+    margin-left: 10px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-family:'Lexend',sans-serif ;
+}
+.select-container{
+    display: flex;
+    flex: 3;
+    gap: 70%;
+    
+}
+.select-container select,option{
+    border-radius: 10px;
+    font-family:'Lexend',sans-serif ;
+    background-color: #9f3dae;
+    color:white;
+}
+.select-container option:focus{
+    background-color: white;
+    color: #9f3dae;
+}
+.status-absent{
+    background-color: #dc143c33;
+    color: #dc143c;
+    width: 75px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0;
+    font-family:'Lexend',sans-serif ;
+  
+}
+.status-leave{
+    
+    background-color: #36a3eb37;
+    color: #36a2eb;
+    width: 75px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0;
+    font-family:'Lexend',sans-serif ;
+    text-align: center;
+    align-items: center;
+    padding-left: 10px;
+  
+}
+.status-on-time {
+    background-color: #9f3dae33;
+    color: #9f3dae;
+    width: 75px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0;
+    font-family:'Lexend',sans-serif ;
+  
+  }
+  
+  .status-late {
+    background-color:#ffd90027;
+    color: #857101;
+    width: 75px;
+    height: 30px;
+    font-family:'Lexend',sans-serif ;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .employee-tables {
+    border-collapse: collapse;
+    width: 100%;
+    border: none;
+    color: rgb(69, 68, 68);
+}
+.date-select{
+    display: flex;
+    flex-direction: row;
+   margin-left: 80%;
+}
+.date-select select{
+    background-color: #9f3dae;
+    color: white;
+    font-family:'Lexend',sans-serif ;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+.employee-tables thead,
+.employee-tables tr,
+.employee-tables th{
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+  
+
+}
+
+  @media (max-width:768px){
+  .container2{
+    width: auto;
+  }
+  }

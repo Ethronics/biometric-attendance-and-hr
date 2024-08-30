@@ -1,0 +1,194 @@
+.leave-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    gap: 20px;
+    overflow-y: hidden;
+}
+
+.leave-card {
+    width: 313px;
+    height: 160px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.leave-top-card {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.leave-span {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-bottom-leave {
+    margin-left: 6px;
+    border-top: 1px solid #ccc;
+    margin-left: 30px;
+}
+
+.leave-icon {
+    width: 40px;
+    height: 30px;
+    border: none;
+    background-color: rgba(143, 221, 189, 0.1);
+    border-radius: 5px;
+}
+
+.zero-button {
+    width: 33px;
+    height: 26px;
+    border: none;
+    background-color: rgba(143, 221, 189, 0.1);
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.leave-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.span-leave {
+    color: white;
+}
+
+.button-leaverequest {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    float: right;
+    background-color: rgba(163, 209, 57, 1);
+
+}
+
+.button-leaverequest:hover {
+    background-color: #ccc;
+    color: rgba(163, 209, 57, 1);
+    transition: 0.3s ease-in-out;
+}
+
+.span-leave:hover {
+    color: rgba(163, 209, 57, 1);
+
+}
+
+.leave-top-table h3{
+    margin-left: 10px;
+    font-family:'Lexend',sans-serif ;
+}
+
+.status-lleave {
+    display: flex;
+    gap: 10px;
+}
+
+.status-accept {
+    background-color: #9f3dae33;
+    color: #9f3dae;
+    border: 1px solid #9f3dae;
+    width: 75px;
+    height: 30px;
+    
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.status-rejected {
+    background-color: #dc143c33;
+    color: #dc143c;
+    border: 1px solid #dc143c;
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.leave-type {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.cause {
+
+    background: white;
+    padding: 50px;
+    border-radius: 8px;
+    width: 800px;
+    max-width: 90%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.handle-back {
+    width: 100px;
+    height: 50px;
+    background-color: #9f3dae;
+    margin-top: 10px;
+    border: none;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.leave-tb td{
+border-bottom: 1px solid #ccc;
+}
+.text-capt {
+    height: 200px;
+    border: none;
+    outline: none;
+}
+
+.type-button {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #015c99;
+    color: #015c99;
+    margin-top: 6px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.b-su {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.leave-tables {
+    border-collapse: collapse;
+    width: 100%;
+    border: none;
+    color: rgb(69, 68, 68);
+}
+
+.leave-tables thead,
+.leave-tables tr,
+.leave-tables th {
+    padding: 18px;
+    text-align: left;
+    border-collapse: collapse;
+    border: none;
+
+}
+
+.leave-tables tbody,
+.leave-tables td {
+    cursor: pointer;
+}

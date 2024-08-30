@@ -1,0 +1,26 @@
+{
+  "dashboard": "ዳሽቦርድ",
+  "all_employees": "ሁሉም ሠራተኞች",
+  "attendance": "መገኘት",
+  "all_departments": "ሁሉም መምሪያዎች",
+  "payroll": "ደምበኛ",
+  "training_and_dev": "ስልጠና እና ልምድ",
+  "performance": "ተግባራዊነት",
+  "leaves": "ፈቃድ",
+  
+  "settings": "ቅንብሮች",
+  "appearance_title": "ቅንብር",
+  "appearance_description": "የገጽታውን እንዴት እንደሚታይ አስተካክለህ ይምረጡ",
+  "light": "ብርሃን",
+  "dark": "ጨለማ",
+  "language_title": "ቋንቋ",
+  "language_description": "ተመሳሳይ ቋንቋ ይምረጡ",
+  "2fa_title": "ሁለት ደረጃ ማረጋገጫ",
+  "2fa_description": "ሁለት ደረጃ ማረጋገጫ ተጠቃሚ አድርግ",
+  "notifications_title": "ማሳወቂያዎች",
+  "notifications_description": "የማሳወቂያ አሰተካካይ ተቋም ያስተካክሉ",
+  "Total_employees":"ጠቅላላ ሰራተኞች",
+  "total_training":"ጠቅላላ ስልጥናዎች",
+  "total_attendance":"ጠቅላላ መገኝት",
+  "total_leave":"ጠቅላላ ፈቃዶች"
+}

@@ -1,0 +1,64 @@
+.all-font textarea{
+  width: 300px;
+  height: 30px;
+}
+.submit-all-button{
+  margin-left: 90%;
+  background-color: #9f3dae;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 90px;
+  height: 40px;
+  padding: 10px;
+  font-family:'Lexend',sans-serif ;
+}
+.all-font select{
+  border: none;
+  font-family:'Lexend',sans-serif ;
+  color: #3a3838;
+}
+.employee-detai{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.profile-pi2{
+  width: 100px;
+  height: 100px;
+}
+.profile-name{
+  display: flex;
+  gap:5px;
+  padding: 15px;
+  flex-direction: column;
+}
+.profile-name p,h2{
+  font-family:'Lexend',sans-serif ;
+  margin: 0;
+}
+.employee-name2{
+  cursor: pointer;
+}
+.click{
+  font-family:'Lexend',sans-serif ;
+  font-size: xx-small;
+  color: #ccc;
+}
+.click-dis{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.back-button{
+  background-color: #9f3dae;
+  color:white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 85%;
+  font-family:'Lexend',sans-serif ;
+  width: 160px;
+  height: 40px;
+  
+}

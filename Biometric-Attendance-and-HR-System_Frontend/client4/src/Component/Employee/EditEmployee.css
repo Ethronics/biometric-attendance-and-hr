@@ -1,0 +1,25 @@
+.edit-tabs{
+  border-top: 1px solid #ccc;
+  margin: 10px;
+}
+.info-item input{
+  border: none;
+  width:300px;
+  font-family:'Lexend',sans-serif ;
+}
+.se{
+  width:200px;
+  border: none;
+  font-family:'Lexend',sans-serif ;
+}
+.edit-btnn{
+  margin-left: 90%;
+  padding: 10px 20px;
+    background-color: #9f3dae; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}

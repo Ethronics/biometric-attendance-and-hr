@@ -1,0 +1,36 @@
+.emp-pay{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.self-pay-tables {
+    border-collapse: collapse;
+    width: 100%;
+    border: none;
+    color: rgb(69, 68, 68);
+}
+
+.self-pay-tables thead,
+.self-pay-tables tr,
+.self-pay-tables th {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+}
+.sa-pay-ta{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border:  1px solid #ccc;
+    border-radius: 5px;
+}
+.self-pay-but{
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: #ef94fc;
+    border-radius: 5px;
+}

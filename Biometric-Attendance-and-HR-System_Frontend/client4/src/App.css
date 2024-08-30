@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  min-height: 100vh; /* Ensure full height of the viewport */
+  min-width: 100vw;
+  overflow: hidden;
+}
+
+.main-content {
+  margin-left: 295px; /* Sidebar width */
+  width: calc(100% - 320px); /* Take remaining space */
+  padding: 1rem; /* Adjusted for relative unit */
+  box-sizing: border-box; /* Ensure padding doesn't affect the width */
+  overflow-y: auto; /* Allow vertical scrolling if content overflows */
+  background-color: white;
+  overflow-x: hidden;
+}
+body.dark{
+  background-color: #272525;
+}
+/* Media query for phones and smaller screens */
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0; /* Remove margin for smaller screens */
+    width: 100%; /* Full width for responsiveness */
+  }
+}
+
+

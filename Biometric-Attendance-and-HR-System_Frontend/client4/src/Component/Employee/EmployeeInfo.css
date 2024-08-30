@@ -1,0 +1,282 @@
+
+.status-absent{
+  background-color: rgba(220, 20, 60, 0.2);
+  color: #dc143c;
+  width: 75px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0;
+  font-family:'Lexend',sans-serif ;
+
+}
+.status-leave{
+  
+  background-color: rgba(54, 163, 235, 0.214);
+  color: #36a2eb;
+  width: 75px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0;
+  font-family:'Lexend',sans-serif ;
+  text-align: center;
+  align-items: center;
+  padding-left: 10px;
+
+}
+.status-weekend{
+  background-color: rgb(54, 235, 181,0.28);
+  color: rgb(54, 235, 181);
+  width: 75px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0;
+  font-family:'Lexend',sans-serif ;
+  text-align: center;
+  align-items: center;
+
+}
+.status-on-time {
+  background-color: rgba(159, 61, 174,0.2);
+  color: rgba(159, 61, 174,1);
+  width: 75px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0;
+  font-family:'Lexend',sans-serif ;
+
+}
+
+.status-late {
+  background-color:rgba(255, 217, 0, 0.152);
+  color: #857101;
+  width: 75px;
+  height: 30px;
+  font-family:'Lexend',sans-serif ;
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.employee-profile {
+  padding: 20px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-info {
+  flex-grow: 1;
+}
+
+.profile-info h2 {
+  margin: 0;
+}
+
+.profile-info p {
+  margin: 5px 0;
+}
+
+.edit-profile-btn {
+  padding: 10px 20px;
+  background-color: #9f3dae;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.boxx{
+  border: 1px solid #ccc;
+  border-radius:10px ;
+}
+.profile-detail {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.right-sub-tabs{
+  position: absolute;
+  right: 0;
+}
+.details{
+border-top: 1px solid #ccc;
+margin: 20px 10px 0px 10px;
+display: flex;
+flex-direction: row;
+padding: 0px;
+}
+
+.tabss {
+  display: flex;
+  flex-direction: column;
+  border-style:none ;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 242px;
+ height: 200px;
+  margin: 40px;
+  margin-top: 0;
+  padding: 0;
+  background:none;
+}
+
+.tabb {
+  cursor: pointer;
+  font-family:'Lexend',sans-serif ;
+ border-style: none;
+  
+  background: none;
+  font-size: 15px;
+  height: 40px;
+ 
+}
+
+.tabb.active {
+  background-color: #9f3dae;
+  color: #fff;
+  border-start-start-radius: 20px;
+  border-start-end-radius: 20px;
+  border-style: none;
+ 
+}
+ 
+.tabb.aactive {
+  background-color: #9f3dae;
+  color: #fff;
+  border-radius: 15px;
+  border-style: none;
+ 
+}
+.tab-header{
+  display: flex;
+  flex-direction: row;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.info-item {
+  padding: 10px;
+  width: 300px;
+  height: 75px;
+  border-bottom: 1px solid #ccc;
+  margin:0;
+  font-family:'Lexend',sans-serif ;
+}
+
+.info-item strong {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #888;
+  font-weight: lighter;
+  font-family: 'Lexend',sans-serif ;
+}
+.employee-pic{
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+}
+.employee-header{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 30px;
+}
+.box3{
+  width: 500px;
+  height: 150px;
+  
+  margin:20px;
+  display: flex;
+ 
+}
+.header2 {
+    display: flex;
+    width:100%;
+    height: 150px;
+    position: relative;
+  }
+  
+.header2 .edit-btn {
+    padding: 10px 20px;
+    background-color: #9f3dae; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .h {
+    color: #888;
+    font-size: 17px;
+    font-weight:lighter;
+  }
+  .sub-tabs{
+    width:820px;
+   
+  }
+  .sub-tab{
+    background:none;
+    border: none;
+    border-bottom:1px solid #ccc;
+    width:190px;
+    text-align: left;
+    margin-left:5px;
+    font-size: 12px;
+    font-family:'Lexend',sans-serif ;
+  }
+  .sub-tab-content{
+    
+    width:100%;
+
+    
+  }
+  .subactive{
+    width:205px;
+    color: #9f3dae;
+    border-bottom: 2px solid #9f3dae;
+    background: none;
+    
+  }
+  .icon{
+    margin-left:10px;
+    margin-top: 5px;
+    font-size: large;
+  }
+  .tables{
+  width:800px;
+  border-collapse: collapse;
+border-bottom: 1px solid #ccc;}
+.attendance{
+  width: 98%;
+  
+  border-bottom: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 8px;
+  text-align: left;
+  
+
+}

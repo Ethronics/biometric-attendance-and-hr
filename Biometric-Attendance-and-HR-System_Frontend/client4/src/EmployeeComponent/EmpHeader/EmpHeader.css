@@ -1,0 +1,238 @@
+/* Header */
+.header-emp {
+    grid-area: header;
+    display: grid;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 82px;
+    width: 1140px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    
+  }
+  .dropdown-container {
+    position: relative;
+  }
+  
+  .dropdown-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+  }
+  
+  .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .header-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color:#474748;
+    font-size: 14px;
+    width: 120px;
+    padding: 5px 25px 5px 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-align: left;
+  }
+  
+  .header-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .search-container {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 40px;
+    margin: 0;
+    width: 100%; /* Full width when displayed */
+    margin-top: 10px;
+    border: none;
+  
+  }
+  
+  .search-heade {
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+  
+  }
+  
+  .search-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    border: none;
+  
+  }
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+    border: none;
+  
+  }
+  
+  
+  
+  .search-heade {
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+  }
+  
+  .notifcation-icon {
+    width: 35px;
+    height: 35px;
+    background-color: #F0F0F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 0 10px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 5px;
+  }
+  .payrol-input{
+    height: 25px;
+    border: none;
+    width: 210px;
+  }
+  .user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 0%;
+    margin-right: 10px;
+  }
+  
+  .user-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-details span {
+    font-size: 1rem;
+    margin-right: 5px;
+  }
+  
+  .h3 {
+    font-size: 0.8rem;
+    color: #A2A1A8;
+    margin: 0;
+  }
+  
+  .header-option {
+    border: none;
+    display: none;
+  }
+  
+  .header-span {
+    color: rgba(162, 161, 168, 1);
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      width: 90%;
+      padding: 8px;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-right {
+      position: static;
+      width: 100%;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+  
+    .search-container {
+      width: 0.1rem;
+      margin-top: 10px;
+    }
+    .payrol-search{
+      border: 1px solid #ccc;
+      height: 32px;
+      gap: 4px;
+      width: 250px;
+      border-radius: 5px;
+  }
+  .payrol-input{
+      height: 30px;
+      border: none;
+  }
+  .payrol-ser{
+      margin-left: 10px;
+      margin-top: 4px;
+  }
+    .search-heade {
+      font-size: 0.7rem;
+      padding: 3px 6px;
+      border: none;
+    }
+  
+    .icon-sear {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 380px) {
+    .header {
+      width: 10rem;
+      padding:0;
+  
+      height: auto;
+     margin: 0;
+     padding-left: 5px;
+    }
+  
+    .header-left-self {
+      font-size: 0.8rem;
+      margin: 0;
+    }
+  
+    .navbar-right {
+      justify-content: space-between;
+      border: none;
+    }
+  
+    .user-details span,
+    .h3 {
+      display: none;
+    }
+  
+  }
+  

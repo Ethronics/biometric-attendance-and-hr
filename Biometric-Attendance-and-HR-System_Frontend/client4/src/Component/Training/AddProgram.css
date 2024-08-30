@@ -1,0 +1,97 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  font-family:'Lexend',sans-serif ;
+}
+label ,textarea{
+  font-family:'Lexend',sans-serif ;
+}
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 800px;
+  max-width: 90%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family:'Lexend',sans-serif ;
+}
+
+h2 {
+  align-self: flex-start;
+  margin-bottom: 20px;
+  font-family:'Lexend',sans-serif ;
+}
+
+.form-container {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: space-between;
+  font-family:'Lexend',sans-serif ;
+}
+
+.form-group-train {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family:'Lexend',sans-serif ;
+}
+
+.form-group-train input,
+.form-group-train select,
+.form-group-tain textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border-color: #9f3dae;
+  outline: none;
+  font-family:'Lexend',sans-serif ;
+
+}
+
+.form-group-tain textarea {
+  height: 100px;
+  font-family:'Lexend',sans-serif ;
+}
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+
+  font-family:'Lexend',sans-serif ;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family:'Lexend',sans-serif ;
+}
+
+.button-group button:first-child {
+  background: #ccc;
+  color: #333;
+  font-family:'Lexend',sans-serif ;
+}
+
+.button-group button:last-child {
+  background: #9f3dae;
+  color: white;
+  font-family:'Lexend',sans-serif ;
+}

@@ -1,0 +1,29 @@
+.employee-home{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+}
+.first-employee-profile{
+  width: 250px;
+  height: 250px;
+}
+.first-employee-right{
+
+width: 70%;
+margin-top: 50px;
+}
+.first-employee-right h3{
+  font-family:'Lexend',sans-serif ;
+  font-size: 15px;
+  margin: 7px;
+}
+.purple-text{
+  color: #9f3dae;
+}
+.right-em{
+  display: flex;
+  flex-direction: row;
+  font-family:'Lexend',sans-serif ;
+}

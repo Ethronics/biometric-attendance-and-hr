@@ -1,0 +1,47 @@
+.emp-atten {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px 10px;
+}
+
+.self-tables {
+    border-collapse: collapse;
+    width: 100%;
+    border: none;
+    color: rgb(69, 68, 68);
+}
+
+.self-tables thead,
+.self-tables tr,
+.self-tables th {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+}
+.sa-ta{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border:  1px solid #ccc;
+    border-radius: 5px;
+}
+.self-but{
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: #ef94fc;
+    border-radius: 5px;
+}
+.self-top{
+    display: flex;
+    justify-content: space-between;
+}
+.atten-self-pro{
+    width: 100px;
+    height: 100px;
+}
+.im-p{
+    display: flex;
+}
